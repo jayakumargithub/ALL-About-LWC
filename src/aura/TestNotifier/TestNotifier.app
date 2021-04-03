@@ -1,0 +1,10 @@
+<aura:application>
+
+    <aura:registerEvent name="testEvent" type="c:TestEvent" />
+
+    <h1>Test Component Event</h1>
+    <p>
+        <lightning:button label="Click to rise component event" onclick="{!c.riseTestEvent}" />
+    </p>
+
+</aura:application>

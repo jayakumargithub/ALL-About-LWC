@@ -1,0 +1,9 @@
+<aura:component>
+    <aura:attribute name="MessageFromEvemt" type="string" />
+
+    <aura:handler name="testEvent" event="c.TestEvent" action="{!c.handleEvent}" />
+    <c:TestEventHandler />
+    Message <b>{!v.messageFromEvemt }</b>
+
+
+</aura:component>
